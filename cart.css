@@ -1,0 +1,86 @@
+ody {
+    /* border: 2px solid; */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Home Page Title */
+.Product-Page {
+    border: 2px solid;
+    padding-bottom: 30px;
+}
+
+/*1st- Navigation Bar Section  */
+.navbar {
+    box-shadow: 0px 0px 10px 0px rgb(70, 70, 70);
+}
+
+.nav-item>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #018dd8;
+}
+
+.nav-item>a:hover {
+    color: rgb(218, 116, 0) !important;
+}
+
+/* 2nd content 
+        - Adding cards */
+.adding-data{
+    /* border: 2px solid; */
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.39);
+    display: grid;
+    grid-template-columns: 18% 8% 18% 3% 8% 3% 6%;
+    column-gap: 6%;
+    margin: 20px 30px;
+    padding: 20px 15px;
+}
+.adding-data>div{
+    /* border: 1px solid red; */
+    height: 7em;
+    text-align: center;
+}
+.text {
+    font-family: sans-serif;
+    font-weight: 700;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-i button{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-weight: 700;
+}
+.text-i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.remove button{
+    padding: 4px 5px;
+    background-color: rgba(225, 5, 5, 0.864);
+    font-size: 14px;
+}
+
+/* 3rd content 
+        - total amount */
+.total-amount{
+    /* border: 2px solid blue; */
+    box-shadow: 0px 0px 3px 0px rgb(103, 103, 103);
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px 0px;
+}
+.total-amount span{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}

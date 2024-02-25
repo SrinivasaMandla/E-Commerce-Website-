@@ -1,0 +1,227 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Home Page Title */
+.Blog-Page {
+    border: 2px solid;
+    /* padding-bottom: 50px; */
+}
+
+/*1st- Navigation Bar Section  */
+.navbar {
+    box-shadow: 0px 1px 10px 0px rgb(121, 121, 121);
+}
+
+.nav-item>a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #018dd8;
+}
+
+.nav-item>a:hover {
+    color: rgb(218, 116, 0) !important;
+}
+
+/* 2nd Content 
+        - Blog imgaes */
+.blog-contents {
+    /* border: 1px solid blue; */
+    padding: 10px 6%;
+}
+
+.blog-contents>h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.blog-imges {
+    /* border: 1px solid green; */
+    padding: 6px 15px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 2.5%;
+    row-gap: 25px;
+}
+
+.blog-imges>div {
+    /* border: 1px solid red; */
+    box-shadow: 0px 0px 5px 0px rgb(70, 70, 70);
+    height: 35em;
+}
+
+.images-all {
+    display: grid;
+    grid-template-rows: 69% 31%;
+}
+
+/* .images-all>div{
+     border: 2px solid rgb(0, 0, 255); 
+} */
+.images-all h5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: rgb(1, 139, 213);
+}
+
+.images-all p {
+    font-size: 15px;
+}
+
+.images-all button {
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 15px;
+    font-size: 14px;
+}
+
+.images-all button:hover {
+    background-color: rgba(0, 0, 138, 0.635);
+}
+
+/* 3rd Content 
+            - animation logo images */
+.logos-imgs {
+    /* border: 2px solid; */
+    margin: 30px 0px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logos-imgs>div {
+    width: 18%;
+    margin-right: 1.5%;
+}
+
+.contents-all {
+    display: flex;
+}
+
+.first {
+    flex: 1;
+}
+
+.first img {
+    width: 35px;
+    margin: 10px 0px 0px 15px;
+}
+
+.second {
+    flex: 2;
+}
+
+.second p {
+    padding: 0px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes moveY {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.contents-all {
+    display: flex;
+    animation: moveY 2.5s infinite;
+}
+
+/* 4th Content 
+            -Last Footer */
+.last-footer {
+    background-color: hsla(0, 0%, 0%, 0.87);
+    padding: 30px 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 23.5%);
+    column-gap: 2%;
+}
+
+.last-footer>div {
+    /* border: 2px solid red; */
+    padding-top: 10%;
+    padding-bottom: 25%;
+}
+
+.footer-one>p {
+    font-size: 15px;
+    color: rgba(182, 182, 182, 0.961);
+}
+
+.footer-one>h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-imgs>div {
+    height: 40px;
+    flex: 1;
+    margin-right: 5px;
+}
+
+.footer-2nd>div {
+    /* border: 1px solid; */
+    margin: 0px 30px;
+    height: 75px;
+}
+
+.footer-2nd>p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgba(182, 182, 182, 0.961);
+}
+
+.footer-3rd {
+    padding-left: 20px;
+}
+
+.footer-3rd ul {
+    padding-left: 20px !important;
+}
+
+.footer-3rd>h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.footer-3rd a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    color: rgba(182, 182, 182, 0.961);
+}
+
+.copyright {
+    background-color: hsla(0, 0%, 0%, 0.87);
+    color: rgba(182, 182, 182, 0.961);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
