@@ -175,10 +175,17 @@ textarea {
     .signup_form>h1 {
         font-size: 45px;
     }
+    .fa-solid {
+        padding: 4.35px;
+    }
+    .fa-lock {
+        padding-bottom: 4.31px;
+    }
     .fa-eye{
         margin: 0px !important;
         font-size: 16px;
-        left: 10px;
+        left: 6px;
+        top: 0.48px;
     }
 }
 
