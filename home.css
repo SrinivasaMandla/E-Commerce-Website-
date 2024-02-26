@@ -454,10 +454,14 @@ body {
         padding-bottom: 0% !important;
         display: grid;
         grid-template-columns:repeat(1,90%);
+        justify-items: center;
     }
     .last-footer>div{
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .footer-3rd ul{
+        padding: 0px !important;
     }
     .footer-one>p{
         font-size: 16px;
@@ -470,6 +474,7 @@ body {
     }
     .footer-3rd>h4{
         font-size: 20px;
+        padding-left: 0px !important;
     }
     .footer-3rd a{
         font-size: 16px;
