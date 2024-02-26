@@ -80,21 +80,12 @@ textarea {
     font-weight: 600;
     color: hsla(0, 0%, 0%, 0.726);
 }
-
-.fa-solid {
-    border-bottom: 2px solid #000000;
-    padding: 4.3px;
-    margin: 0px !important;
-    padding-right: 10px;
-    font-size: 14px;
+.font-symbol{
     position: relative;
-    left: 4.4px;
+    padding: 1px 5px;
+    left: 4.5px;
+    border-bottom: 2px solid #000000;
 }
-
-.fa-lock {
-    padding-bottom: 4.3px;
-}
-
 .fa-eye{
     border-bottom: 2px solid #000000;
     padding: 4.3px;
@@ -175,12 +166,7 @@ textarea {
     .signup_form>h1 {
         font-size: 45px;
     }
-    .fa-solid {
-        padding: 4.56px;
-    }
-    .fa-lock {
-        padding-top: 4px !important;
-    }
+    
     .fa-eye{
         margin: 0px !important;
         font-size: 16px;
