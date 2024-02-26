@@ -4,11 +4,6 @@ body {
     padding: 0px;
 }
 
-/* Home Page Title */
-.Home_page{
-    border: 2px solid;
-}
-
 /*1st- Navigation Bar Section  */
 .navbar{
     box-shadow: 0px 0px 10px 0px rgb(70, 70, 70);
@@ -90,7 +85,24 @@ body {
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-@media (max-width:672.98px) {
+@media (max-width:400.98px) {
+    .category_cards{
+        padding: 5px;
+        row-gap: 20px;
+    }
+    .carousel-inner img{
+        height: 125px;
+    }
+    .category{
+        margin: 20px 3%;
+        box-shadow: 0px 0px 10px 1px hsla(0, 0%, 31%, 0.419);  
+    }
+    .category_cards{
+        grid-template-columns: repeat(1,90%);
+        padding-bottom: 25px;
+    }
+}
+@media (min-width:401px) and (max-width:672.98px) {
     .carousel-inner img{
         height: 225px;
     }
@@ -213,8 +225,24 @@ body {
 .smart-text button:hover{
     background-color: rgb(255, 115, 0);
 }
-
-@media  (max-width:672.98px) {
+@media (max-width:400.98px) {
+    .smart-text{
+        padding: 0px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .smart-watch{
+        margin-top: 30px;
+        padding: 15px 2%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .smart-text>p{
+        font-size: 14px;
+    }
+}
+@media (min-width:400.98px) and (max-width:672.98px) {
     .smart-text{
         padding: 0px;
     }
@@ -258,8 +286,39 @@ body {
     font-size: 15px;
     font-weight: 700;
 }
+@media (max-width:400.98px) {
+    .content-6{
+        margin: 20px 0px;
+        padding: 0px 12%;
+        grid-template-columns: repeat(1,90%);
+        row-gap: 15px;
+    }
+    .box-1{
+        padding: 15px 8px;
+    }
+    .box-1 p{
+        font-size: 11px;
+    }
+    .box-1 i{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
 
-@media (max-width:672.98px) {
+    .brand-logos{
+        padding: 0px !important;
+        margin-left: 25px;
+        display:grid !important;
+        grid-template-columns: repeat(2,auto);
+        justify-content: space-around;
+        width: 80%; 
+        margin-bottom: 20px !important;
+    }
+    .brand-logos div{
+        margin-right: 0px !important;
+        height: 45px !important;
+    }
+}
+@media (min-width:401px) and (max-width:672.98px) {
     .content-6{
         padding: 0px 3%;
         grid-template-columns: repeat(3,31%);
@@ -389,7 +448,72 @@ body {
     text-align: center;
     padding: 20px 0px;
 }
-@media  (max-width:891px) {
+@media (max-width:400.98px) {
+    .last-footer{
+        padding: 10px 0% 0px 5%;
+        padding-bottom: 0% !important;
+        display: grid;
+        grid-template-columns:repeat(1,90%);
+    }
+    .last-footer>div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-one>p{
+        font-size: 16px;
+    }
+    .footer-one>h4{
+        font-size: 20px;
+    }
+    .footer-2nd>p{
+        font-size: 15px;
+    }
+    .footer-3rd>h4{
+        font-size: 20px;
+    }
+    .footer-3rd a{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+}
+@media (min-width:401px) and (max-width:672.98px) {
+    .last-footer{
+        padding: 10px 0% 40px 5%;
+        padding-bottom: 0% !important;
+        display: grid;
+        grid-template-columns:repeat(2,46%);
+        overflow: hidden;
+    }
+    .footer-imgs{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .footer-one>p{
+        font-size: 16px;
+    }
+    .footer-one>h4{
+        font-size: 20px;
+    }
+    .footer-2nd>p{
+        font-size: 15px;
+    }
+    .footer-3rd>h4{
+        font-size: 20px;
+    }
+    .footer-3rd a{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+
+}
+@media (min-width:673px) and  (max-width:891px) {
     .last-footer{
         padding: 30px 10px;
         padding-bottom: 0% !important;
