@@ -22,19 +22,22 @@ const productsAPI = [
   {
     id: 4,
     name: "Black T-shirt",
-    price: 1999,
+    price: 599,
     img: " images/product-4.jpg",
   },
-  { id: 5, name: "Shoe", price: 3499, img: " images/product-5.jpg" },
+  { id: 5, 
+    name: "Shoe", 
+    price: 2199, 
+    img: " images/product-5.jpg" },
   {
     id: 6,
     name: "Puma Black t-Shirt",
     price: 599,
     img: " images/product-6.jpg",
   },
-  { id: 7, name: "Sacks", price: 699, img: " images/product-7.jpg" },
-  { id: 8, name: "Watch", price: 199, img: " images/product-8.jpg" },
-  { id: 9, name: "Watch", price: 299, img: " images/product-9.jpg" },
+  { id: 7, name: "Sacks", price: 199, img: " images/product-7.jpg" },
+  { id: 8, name: "Watch", price: 499, img: " images/product-8.jpg" },
+  { id: 9, name: "Watch", price: 899, img: " images/product-9.jpg" },
   {
     id: 10,
     name: "Running Shoe",
@@ -51,20 +54,20 @@ const productsAPI = [
   {
     id: 13,
     name: "Smart Watch",
-    price: 199,
+    price: 299,
     img: "images/newproduct.jpg",
   },
   {
     id: 14,
     name: "Safari Bag",
-    price: 299,
+    price: 399,
     img: " images/newproduct-2.jpg",
   },
   {
     id: 15,
     name: "Shoe",
-    price: 399,
-    img: "images/product-10.jpg"
+    price: 799,
+    img: "images/newproduct-5.jpg"
   },
   {
     id: 16,
@@ -114,7 +117,7 @@ productsAPI.forEach((product) => {
         </div>
         <div>
           <h5>${product.name}</h5>
-          <p>${product.price}/-</p>
+          <p>RS-${product.price}/-</p>
           <button class="add-to-cart" data-product-id="${product.id}" onClick="addToCart(this)">Add to Cart</button>
         </div>
       </div>`;

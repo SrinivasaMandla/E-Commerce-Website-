@@ -4,10 +4,9 @@ body {
 }
 
 /* Home Page Title */
-.Blog-Page {
+/* .Blog-Page {
     border: 2px solid;
-    /* padding-bottom: 50px; */
-}
+} */
 
 /*1st- Navigation Bar Section  */
 .navbar {
@@ -19,11 +18,11 @@ body {
     font-weight: bold;
     font-size: 15px;
     text-transform: uppercase;
-    color: #018dd8;
+    color: #03bb8d;
 }
 
 .nav-item>a:hover {
-    color: rgb(218, 116, 0) !important;
+    color: rgba(1, 141, 216, 0.866);
 }
 
 /* 2nd Content 
@@ -82,7 +81,7 @@ body {
 }
 
 .images-all button:hover {
-    background-color: rgba(0, 0, 138, 0.635);
+    background-color: rgba(0, 97, 138, 0.635);
 }
 @media (max-width:400.98px) {
     .blog-imges>div {
@@ -322,7 +321,9 @@ body {
     font-weight: 550;
     color: rgba(182, 182, 182, 0.961);
 }
-
+.footer-3rd a:hover{
+    color: rgb(0, 123, 211);
+}
 .copyright {
     background-color: hsla(0, 0%, 0%, 0.87);
     color: rgba(182, 182, 182, 0.961);

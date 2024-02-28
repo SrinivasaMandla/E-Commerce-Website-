@@ -38,14 +38,14 @@ function updateCart() {
         totalAmount += product.price * product.quantity;
         cartContainer.innerHTML += `
             <div class="cart-item">
-                <p>${product.name} </p>
+                <p>${product.name}: ₹${product.price} </p>
                 <img src="${product.img}" alt="${product.name}" class="image-all">
                 <p>Total Price: ₹${product.price * product.quantity}</p>
-                <button onclick="updateQuantity(${product.id},'decrement')"><i class="fa-solid fa-minus"></i></button>
-                <p>Quantity:${product.quantity}</p>
-                <button onclick="updateQuantity(${product.id},'increment')"><i class="fa-solid fa-plus"></i></button>
+                <button class="decrement" onclick="updateQuantity(${product.id},'decrement')"><i class="fa-solid fa-minus"></i></button>
+                <p class="m-1 Quantity">Quantity:${product.quantity}</p>
+                <button class="increment"  onclick="updateQuantity(${product.id},'increment')"><i class="fa-solid fa-plus"></i></button>
                 <div>
-                    <button onclick="removeFromCart(${product.id})">Remove</button>
+                    <button class="remove" onclick="removeFromCart(${product.id})">Remove</button>
                 </div>
             </div>
         `;
