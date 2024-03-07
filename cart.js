@@ -1,6 +1,6 @@
 function removeFromCart(productId) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    
+
     // Use filter to remove the product with the specified id
     cart = cart.filter(product => product.id !== productId);
 
@@ -14,7 +14,7 @@ function updateQuantity(productId, action) {
 
     if (productIndex !== -1) {
         // increment the quantity 
-        if (action === 'increment') {
+        if (action === 'increment' && cart[productIndex].quantity <5) {
             cart[productIndex].quantity += 1;
             // decrement the quantity
         } else if (action === 'decrement' && cart[productIndex].quantity > 1) {
