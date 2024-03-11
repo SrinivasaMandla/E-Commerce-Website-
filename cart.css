@@ -106,12 +106,12 @@ body {
     .decrement {
         position: absolute;
         bottom: 44px;
-        left: 45px;
+        left: 12%;
     }
     .increment{
         position: absolute;
         bottom: 44px;
-        right: 45px;
+        right: 12%;
     }
 
     .cart-item>button {
