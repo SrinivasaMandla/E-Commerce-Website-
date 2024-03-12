@@ -48,6 +48,7 @@ body {
     /* border: 2px solid red; */
     height: 270px;
     box-shadow: 2px 2px 10px 1px hsla(0, 0%, 0%, 0.583); 
+    cursor: pointer;
 }
 .cards-8:hover{
     opacity: 0.7;
@@ -138,6 +139,7 @@ body {
     grid-template-rows: 90% 10%;
     box-shadow: 0px 0px 10px 2px hsla(0, 0%, 0%, 0.268); 
     text-decoration: none;
+    cursor: pointer;
 }
 .img-1{
     background-image: url(images/newproduct.jpg);
