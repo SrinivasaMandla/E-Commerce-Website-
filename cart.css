@@ -107,11 +107,13 @@ body {
         position: absolute;
         bottom: 44px;
         left: 12%;
+        padding: 4px 8px !important;
     }
     .increment{
         position: absolute;
         bottom: 44px;
         right: 12%;
+        padding: 4px 8px !important;
     }
 
     .cart-item>button {
