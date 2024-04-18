@@ -22,14 +22,14 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
 
         // Validate username pattern
-        var usernamePattern = /^[a-zA-Z0-9_]{4,}$/;
+        let usernamePattern = /^[a-zA-Z0-9_]{4,}$/;
         if (!usernamePattern.test(usernameInput.value)) {
             alert("Invalid username. It should contain at least 4 characters and only include letters, numbers, and underscores.");
             return;
         }
 
         // Validate password pattern
-        var passwordPattern = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;
+        let passwordPattern = /^(?=.*[A-Za-z])(?=.*\d).{6,}$/;
         if (!passwordPattern.test(passwordInput.value)) {
             alert("Invalid password. It should contain at least 6 characters, including at least one letter and one number.");
             return;
