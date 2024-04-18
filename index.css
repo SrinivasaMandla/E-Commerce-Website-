@@ -6,7 +6,7 @@ body {
 
 .signup_page {
     /* border: 2px solid; */
-    padding: 8em 0px;
+    padding: 6em 0px;
     display: flex;
     flex-direction: row;
     background: radial-gradient(circle at center, hsl(351, 100%, 99%), hsl(350, 100%, 92%), hsl(350, 100%, 90%) 150%);
